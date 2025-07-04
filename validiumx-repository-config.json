@@ -1,0 +1,82 @@
+{
+  "repository": {
+    "owner": "validiumx",
+    "name": "gxot-token",
+    "full_name": "validiumx/gxot-token",
+    "url": "https://github.com/validiumx/gxot-token",
+    "description": "🐐 GXOT - The GOAT of Meme Tokens with DAO Governance on World Chain. 3B tokens, fair tokenomics, deployed for $0.11 USD! Ready for community! 🚀",
+    "homepage": "https://worldscan.org/address/0x1a4E4eCdD7027f38c6a84cB590a3bB38028ea0cb",
+    "topics": [
+      "gxot",
+      "meme-token",
+      "dao-governance",
+      "world-chain",
+      "defi",
+      "cryptocurrency",
+      "solidity",
+      "hardhat",
+      "uniswap",
+      "blockchain",
+      "smart-contracts",
+      "goat-token",
+      "community-driven",
+      "governance-token",
+      "validiumx"
+    ],
+    "visibility": "public",
+    "license": "MIT",
+    "language": "Solidity"
+  },
+  "contracts": {
+    "mainnet": {
+      "network": "World Chain Mainnet",
+      "chain_id": 480,
+      "gxot_token": {
+        "address": "0x1a4E4eCdD7027f38c6a84cB590a3bB38028ea0cb",
+        "explorer": "https://worldscan.org/address/0x1a4E4eCdD7027f38c6a84cB590a3bB38028ea0cb",
+        "verified": true
+      },
+      "dao_contract": {
+        "address": "0x8CDa18d8A834D6A42951375C75789d3380CB10f8",
+        "explorer": "https://worldscan.org/address/0x8CDa18d8A834D6A42951375C75789d3380CB10f8",
+        "verified": true
+      },
+      "liquidity_manager": {
+        "address": "0xCD00672437454253861330bE1ED8FF4C630fbe2c",
+        "explorer": "https://worldscan.org/address/0xCD00672437454253861330bE1ED8FF4C630fbe2c",
+        "verified": true
+      }
+    }
+  },
+  "deployment": {
+    "date": "2025-07-04",
+    "cost_usd": 0.11,
+    "gas_price_gwei": 0.01,
+    "success_rate": "100%",
+    "verification_status": "all_verified"
+  },
+  "tokenomics": {
+    "total_supply": "3000000000000000000000000000",
+    "team_allocation": "300000000000000000000000000",
+    "dex_allocation": "2700000000000000000000000000",
+    "team_percentage": 10,
+    "community_percentage": 90
+  },
+  "features": {
+    "dao_governance": true,
+    "fixed_supply": true,
+    "world_chain_integration": true,
+    "uniswap_v4_compatible": true,
+    "community_driven": true,
+    "ultra_low_cost": true,
+    "security_audited": true,
+    "gas_optimized": true
+  },
+  "community": {
+    "github": "https://github.com/validiumx/gxot-token",
+    "discord": "https://discord.gg/gxot",
+    "twitter": "https://twitter.com/GXOTToken",
+    "telegram": "https://t.me/gxottoken",
+    "website": "https://gxot.com"
+  }
+}
