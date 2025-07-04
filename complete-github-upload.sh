@@ -61,7 +61,7 @@ git push -u origin main
 
 if [ $? -eq 0 ]; then
     echo "✅ Successfully uploaded complete GXOT project!"
-    echo "🔗 Repository: https://github.com/vautx-digital/gxot-token"
+    echo "🔗 Repository: https://github.com/validiumx/gxot-token"
     echo ""
     echo "🎊 Next steps:"
     echo "1. ⭐ Star your repository"
