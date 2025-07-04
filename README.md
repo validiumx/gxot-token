@@ -2,17 +2,16 @@
 
 A meme token with DAO governance on World Chain.
 
-## Contract Addresses (Mainnet)
+## Contracts (World Chain Mainnet)
 
 - **GXOT Token**: `0x1a4E4eCdD7027f38c6a84cB590a3bB38028ea0cb`
-- **DAO Contract**: `0x8CDa18d8A834D6A42951375C75789d3380CB10f8`
+- **DAO**: `0x8CDa18d8A834D6A42951375C75789d3380CB10f8`
 - **Liquidity Manager**: `0xCD00672437454253861330bE1ED8FF4C630fbe2c`
 
 ## Features
 
-- 3 billion GXOT tokens (fixed supply)
-- DAO governance system
-- World Chain integration
+- 3B GXOT tokens (fixed supply)
+- DAO governance
 - Fair tokenomics (10% team, 90% community)
 
 ## Setup
@@ -29,7 +28,32 @@ npm run deploy-mainnet
 - Symbol: GXOT
 - Decimals: 18
 
-## Links
+[View on Explorer](https://worldscan.org/address/0x1a4E4eCdD7027f38c6a84cB590a3bB38028ea0cb)
+\`\`\`
 
-- [Explorer](https://worldscan.org/address/0x1a4E4eCdD7027f38c6a84cB590a3bB38028ea0cb)
-- [World Chain](https://worldchain.org)
+```powershell file="commit-cleanup.ps1"
+# Commit the cleanup changes
+Write-Host "💾 Committing cleanup changes..." -ForegroundColor Green
+
+# Replace README with clean version
+if (Test-Path "README.md") {
+    Move-Item "README.md" "README-comprehensive.md" -Force
+}
+Move-Item "README-CLEAN.md" "README.md" -Force
+
+# Add all changes
+git add -A
+
+# Commit
+git commit -m "🧹 Repository cleanup
+
+- Remove excessive documentation
+- Keep only essential files
+- Simplify README
+- Professional structure"
+
+# Push to GitHub
+git push
+
+Write-Host "✅ Repository cleaned and pushed!" -ForegroundColor Green
+Write-Host "🎯 Now looks natural and professional!" -ForegroundColor Cyan
