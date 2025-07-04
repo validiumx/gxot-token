@@ -1,0 +1,21 @@
+{
+  "network": "worldchain-testnet",
+  "chainId": 4801,
+  "timestamp": "2025-07-04T10:09:17.056Z",
+  "deployer": "0x701aB55cb87FB8dA4fE3f45FFf6cc1eA60965310",
+  "contracts": {
+    "GXOT": "0x2F6F955B6A667eE1E99109F7B632EAA7E990A6c5",
+    "DAO": "0xFF917dAfBb675b1c6ad0c6b87df122aa172f7beA",
+    "LiquidityManager": "0x2D8C6e614d8Ef0B997a8AF729091C88C066CBC9c"
+  },
+  "teamWallet": "0x701aB55cb87FB8dA4fE3f45FFf6cc1eA60965310",
+  "tokenomics": {
+    "totalSupply": "3000000000.0",
+    "teamBalance": "300000000.0",
+    "contractBalance": "2700000000.0"
+  },
+  "gasUsed": {
+    "gasPrice": "1 gwei",
+    "totalEstimatedCost": "~0.01 ETH"
+  }
+}

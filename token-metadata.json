@@ -1,0 +1,69 @@
+{
+  "name": "GXOT",
+  "symbol": "GXOT",
+  "description": "GXOT is the ultimate meme token with DAO governance on World Chain. Featuring a friendly goat mascot, community-driven decisions, and fair tokenomics. The GOAT of meme tokens! 🐐🚀",
+  "decimals": 18,
+  "totalSupply": "3000000000000000000000000000",
+  "maxSupply": "3000000000000000000000000000",
+  "contractAddress": "0x1a4E4eCdD7027f38c6a84cB590a3bB38028ea0cb",
+  "network": {
+    "name": "World Chain Mainnet",
+    "chainId": 480,
+    "rpc": "https://worldchain-mainnet.g.alchemy.com/public",
+    "explorer": "https://worldscan.org"
+  },
+  "logo": {
+    "src": "assets/gxot-logo.png",
+    "alt": "GXOT Goat Mascot",
+    "type": "image/png"
+  },
+  "social": {
+    "website": "https://gxot.com",
+    "twitter": "https://twitter.com/GXOTToken",
+    "discord": "https://discord.gg/gxot",
+    "telegram": "https://t.me/gxottoken",
+    "github": "https://github.com/gxot-token"
+  },
+  "tokenomics": {
+    "teamAllocation": {
+      "amount": "300000000000000000000000000",
+      "percentage": 10,
+      "wallet": "0x701aB55cb87FB8dA4fE3f45FFf6cc1eA60965310",
+      "status": "distributed"
+    },
+    "dexAllocation": {
+      "amount": "2700000000000000000000000000",
+      "percentage": 90,
+      "status": "ready"
+    }
+  },
+  "governance": {
+    "daoContract": "0x8CDa18d8A834D6A42951375C75789d3380CB10f8",
+    "votingPeriod": "7 days",
+    "proposalThreshold": "1000000000000000000000000",
+    "quorum": "10%",
+    "active": true
+  },
+  "contracts": {
+    "token": "0x1a4E4eCdD7027f38c6a84cB590a3bB38028ea0cb",
+    "dao": "0x8CDa18d8A834D6A42951375C75789d3380CB10f8",
+    "liquidityManager": "0xCD00672437454253861330bE1ED8FF4C630fbe2c"
+  },
+  "deployment": {
+    "date": "2025-07-04",
+    "cost": "$0.11 USD",
+    "gasPrice": "0.01 gwei",
+    "verified": true
+  },
+  "features": [
+    "ERC20 Standard",
+    "DAO Governance",
+    "Fixed Supply",
+    "Community Driven",
+    "World Chain Native",
+    "Uniswap V4 Compatible",
+    "Gas Optimized",
+    "Security Audited"
+  ],
+  "tags": ["meme", "token", "dao", "governance", "worldchain", "defi", "community", "goat"]
+}

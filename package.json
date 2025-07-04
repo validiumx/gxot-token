@@ -1,0 +1,65 @@
+{
+  "name": "gxot-meme-token",
+  "version": "1.0.0",
+  "description": "GXOT Meme Token with DAO and Liquidity Management on World Chain",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "clean": "hardhat clean",
+
+    "check-balance-testnet": "hardhat run scripts/check-balance.js --network worldchain-testnet",
+    "check-balance-mainnet": "hardhat run scripts/check-balance.js --network worldchain-mainnet",
+    "check-balance": "hardhat run scripts/check-balance.js --network worldchain-mainnet",
+
+    "deploy-testnet": "hardhat run scripts/deploy.js --network worldchain-testnet",
+    "deploy-mainnet": "hardhat run scripts/deploy.js --network worldchain-mainnet",
+    "deploy": "hardhat run scripts/deploy.js --network worldchain-mainnet",
+
+    "deploy-cheap-testnet": "hardhat run scripts/deploy-cheap.js --network worldchain-testnet",
+    "deploy-cheap-mainnet": "hardhat run scripts/deploy-cheap.js --network worldchain-mainnet",
+    "deploy-cheap": "hardhat run scripts/deploy-cheap.js --network worldchain-mainnet",
+
+    "deploy-ultra-cheap-testnet": "hardhat run scripts/deploy-ultra-cheap.js --network worldchain-testnet",
+    "deploy-ultra-cheap-mainnet": "hardhat run scripts/deploy-ultra-cheap.js --network worldchain-mainnet",
+    "deploy-ultra-cheap": "hardhat run scripts/deploy-ultra-cheap.js --network worldchain-mainnet",
+
+    "deploy-super-cheap-testnet": "hardhat run scripts/deploy-super-cheap.js --network worldchain-testnet",
+    "deploy-super-cheap-mainnet": "hardhat run scripts/deploy-super-cheap.js --network worldchain-mainnet",
+    "deploy-super-cheap": "hardhat run scripts/deploy-super-cheap.js --network worldchain-mainnet",
+
+    "deploy-minimal-testnet": "hardhat run scripts/deploy-minimal.js --network worldchain-testnet",
+    "deploy-minimal-mainnet": "hardhat run scripts/deploy-minimal.js --network worldchain-mainnet",
+    "deploy-minimal": "hardhat run scripts/deploy-minimal.js --network worldchain-mainnet",
+
+    "verify-mainnet-manual": "hardhat run scripts/verify-mainnet.js --network worldchain-mainnet",
+
+    "test-mainnet": "hardhat run scripts/test-mainnet-deployment.js --network worldchain-mainnet",
+    "create-proposal": "hardhat run scripts/create-first-proposal.js --network worldchain-mainnet",
+
+    "add-liquidity-testnet": "hardhat run scripts/add-liquidity.js --network worldchain-testnet",
+    "add-liquidity-mainnet": "hardhat run scripts/add-liquidity.js --network worldchain-mainnet",
+    "add-liquidity": "hardhat run scripts/add-liquidity.js --network worldchain-mainnet",
+
+    "test-deployment-testnet": "hardhat run scripts/test-deployment.js --network worldchain-testnet",
+    "test-deployment-mainnet": "hardhat run scripts/test-deployment.js --network worldchain-mainnet",
+    "test-deployment": "hardhat run scripts/test-deployment.js --network worldchain-mainnet",
+
+    "verify-testnet": "hardhat run scripts/verify-contracts.js --network worldchain-testnet",
+    "verify-mainnet": "hardhat run scripts/verify-contracts.js --network worldchain-mainnet",
+    "verify": "hardhat run scripts/verify-contracts.js --network worldchain-mainnet",
+
+    "test": "hardhat test",
+    "gas-report": "REPORT_GAS=true hardhat test",
+    "size": "hardhat size-contracts"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "hardhat": "^2.19.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["meme", "token", "dao", "defi", "worldchain", "uniswap"],
+  "author": "GXOT Team",
+  "license": "MIT"
+}

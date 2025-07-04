@@ -1,0 +1,44 @@
+{
+  "repository": {
+    "name": "gxot-token",
+    "full_name": "vautx-digital/gxot-token",
+    "owner": "vautx-digital",
+    "url": "https://github.com/vautx-digital/gxot-token",
+    "description": "🐐 GXOT - The GOAT of Meme Tokens with DAO Governance on World Chain",
+    "created": "2025-07-04",
+    "language": "Solidity",
+    "license": "MIT"
+  },
+  "contracts": {
+    "mainnet": {
+      "gxot_token": "0x1a4E4eCdD7027f38c6a84cB590a3bB38028ea0cb",
+      "dao_contract": "0x8CDa18d8A834D6A42951375C75789d3380CB10f8",
+      "liquidity_manager": "0xCD00672437454253861330bE1ED8FF4C630fbe2c",
+      "network": "World Chain Mainnet",
+      "chain_id": 480,
+      "verified": true
+    }
+  },
+  "deployment": {
+    "cost_usd": 0.11,
+    "gas_price_gwei": 0.01,
+    "total_supply": "3000000000000000000000000000",
+    "team_allocation": "300000000000000000000000000",
+    "dex_allocation": "2700000000000000000000000000"
+  },
+  "features": [
+    "ERC20 Token",
+    "DAO Governance",
+    "Fixed Supply",
+    "World Chain Integration",
+    "Uniswap V4 Compatible",
+    "Community Driven",
+    "Ultra Low Cost Deployment"
+  ],
+  "community": {
+    "github": "https://github.com/vautx-digital/gxot-token",
+    "discord": "https://discord.gg/gxot",
+    "twitter": "https://twitter.com/GXOTToken",
+    "telegram": "https://t.me/gxottoken"
+  }
+}

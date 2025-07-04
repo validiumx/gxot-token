@@ -1,0 +1,14 @@
+{
+  "network": "worldchain-mainnet",
+  "mode": "SUPER_CHEAP",
+  "contracts": {
+    "GXOT": "0x1a4E4eCdD7027f38c6a84cB590a3bB38028ea0cb",
+    "DAO": "0x8CDa18d8A834D6A42951375C75789d3380CB10f8",
+    "LiquidityManager": "0xCD00672437454253861330bE1ED8FF4C630fbe2c"
+  },
+  "cost": {
+    "gasPrice": "0.01 gwei",
+    "totalCost": "0.000035639149460727 ETH",
+    "costUSD": "$0.106917"
+  }
+}
