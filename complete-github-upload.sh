@@ -12,7 +12,7 @@ fi
 # Add the correct remote (your actual repo)
 echo "🔗 Setting up remote origin..."
 git remote remove origin 2>/dev/null || true
-git remote add origin https://github.com/vautx-digital/gxot-token.git
+git remote add origin https://github.com/validiumx/gxot-token
 
 # Check git status
 echo "📋 Current git status:"
